@@ -4,7 +4,7 @@
  * Animações: fade-in-up, glow, float, slide-in
  */
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
   CheckCircle,
   XCircle,
@@ -25,6 +25,7 @@ import {
   ShieldCheck,
   Mail,
   ChevronDown,
+  VolumeX,
 } from "lucide-react";
 
 /* ───── Social Proof Popup ───── */
@@ -239,6 +240,17 @@ function UpsellModal({
 export default function Home() {
   const [showUpsell, setShowUpsell] = useState(false);
   const [todayDate, setTodayDate] = useState("");
+  const [showMuteOverlay, setShowMuteOverlay] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handleUnmute = useCallback(() => {
+    setShowMuteOverlay(false);
+    if (videoRef.current) {
+      videoRef.current.muted = false;
+      videoRef.current.currentTime = 0;
+      videoRef.current.play();
+    }
+  }, []);
 
   const goToCheckout = useCallback((url: string) => {
     const params = window.location.search;
@@ -301,10 +313,11 @@ export default function Home() {
           style={{ animationDelay: "0.2s" }}
         >
           <div
-            className="w-full max-w-sm rounded-2xl shadow-xl transform transition-transform duration-500 hover:shadow-2xl hover:-translate-y-2 overflow-hidden"
+            className="w-full max-w-sm rounded-2xl shadow-xl transform transition-transform duration-500 hover:shadow-2xl hover:-translate-y-2 overflow-hidden relative"
             style={{ aspectRatio: "9 / 16" }}
           >
             <video
+              ref={videoRef}
               src="https://imgur.com/rwOQ3u0.mp4"
               controls
               autoPlay
@@ -314,6 +327,18 @@ export default function Home() {
               width="360"
               height="640"
             />
+            {showMuteOverlay && (
+              <div
+                onClick={handleUnmute}
+                className="absolute inset-0 flex items-center justify-center z-10 cursor-pointer"
+              >
+                <div className="bg-[#2F6BFF] rounded-2xl px-8 py-6 flex flex-col items-center gap-2 shadow-2xl">
+                  <p className="text-white font-bold text-base">Seu vídeo já começou</p>
+                  <VolumeX className="text-white" size={32} />
+                  <p className="text-white font-bold text-base">Clique para ouvir</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
