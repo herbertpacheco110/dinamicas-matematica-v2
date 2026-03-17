@@ -351,6 +351,39 @@ export default function Home() {
           <br />
           dinâmicas agora
         </button>
+
+        {/* Pílula Blue Glass */}
+        <div
+          className="mt-6 inline-flex items-center gap-3 px-6 py-3 rounded-full animate-fade-in-up"
+          style={{
+            animationDelay: "0.4s",
+            background: "rgba(47, 107, 255, 0.15)",
+            backdropFilter: "blur(12px)",
+            WebkitBackdropFilter: "blur(12px)",
+            border: "1px solid rgba(47, 107, 255, 0.3)",
+            boxShadow: "0 4px 20px rgba(47, 107, 255, 0.15)",
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#2F6BFF"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="shrink-0"
+          >
+            <polyline points="6 9 6 2 18 2 18 9" />
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+            <rect x="6" y="14" width="12" height="8" />
+          </svg>
+          <span className="text-[#1a3a8a] font-semibold text-sm md:text-base">
+            Material Completo Pronto para Impressão
+          </span>
+        </div>
       </section>
 
       {/* ── Problem Section ── */}
