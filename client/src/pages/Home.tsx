@@ -436,7 +436,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { Icon: Infinity, title: "Acesso Vitalício", desc: "Use para sempre." },
-              { Icon: Printer, title: "100% Aplicável", desc: "Pronto para imprimir." },
+              { Icon: Printer, title: "Pronto para Imprimir", desc: "Receba tudo organizado para impressão." },
               { Icon: Users, title: "Mais Participação", desc: "Aulas mais dinâmicas." },
               { Icon: DollarSign, title: "Custo-Benefício", desc: "Menos que um lanche." },
             ].map((item, i) => (
