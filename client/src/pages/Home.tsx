@@ -76,6 +76,11 @@ function SocialProof() {
 /* ───── FAQ Accordion ───── */
 const FAQ_DATA = [
   {
+    question: "O material já vem pronto para imprimir?",
+    answer:
+      "Com certeza! Todo o conteúdo é entregue em formato PDF de alta qualidade. Você recebe os arquivos organizados, bastando apenas baixar e imprimir quantas vezes precisar.",
+  },
+  {
     question: "O material é digital ou físico?",
     answer:
       "O material é 100% digital. Você receberá acesso imediato após a compra e poderá baixar todos os arquivos em PDF.",
