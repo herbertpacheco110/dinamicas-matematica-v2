@@ -691,7 +691,7 @@ export default function Home() {
             <p className="text-lg text-gray-700">
               Teste o material.
               <br />
-              Se não gostar, devolvemos seu dinheiro integralmente.
+              Se não gostar, devolvemos todo seu dinheiro.
             </p>
           </div>
         </div>
