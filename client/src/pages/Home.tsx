@@ -354,7 +354,7 @@ export default function Home() {
 
         {/* Pílula Blue Glass */}
         <div
-          className="mt-12 mb-6 inline-flex items-center gap-3 px-6 py-3 rounded-full animate-fade-in-up"
+          className="mt-20 mb-6 inline-flex items-center gap-3 px-6 py-3 rounded-full animate-fade-in-up"
           style={{
             animationDelay: "0.4s",
             background: "rgba(47, 107, 255, 0.15)",
