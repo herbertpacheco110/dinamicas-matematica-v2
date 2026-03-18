@@ -294,7 +294,7 @@ export default function Home() {
       </div>
 
       {/* ── Hero ── */}
-      <section className="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+      <section className="max-w-6xl mx-auto px-4 py-16 md:py-20 pb-8 md:pb-10 text-center">
         <h1
           className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in-up"
           style={{ textShadow: "0 4px 20px rgba(47, 107, 255, 0.3)" }}
@@ -387,7 +387,7 @@ export default function Home() {
       </section>
 
       {/* ── Problem Section ── */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 relative overflow-hidden">
+      <section className="bg-gradient-to-b from-gray-50 to-white pt-10 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply blur-3xl" />
           <div className="absolute bottom-10 left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply blur-3xl" />
