@@ -381,7 +381,7 @@ export default function Home() {
             <rect x="6" y="14" width="12" height="8" />
           </svg>
           <span className="text-[#1a3a8a] font-semibold text-sm md:text-base">
-            Material Completo Pronto para Impressão
+            Material Completo, Pronto para Impressão
           </span>
         </div>
       </section>
