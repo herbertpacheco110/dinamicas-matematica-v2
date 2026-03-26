@@ -1,0 +1,12 @@
+[build]
+  command = "cd client && pnpm install && pnpm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  NODE_VERSION = "22"
+  PNPM_VERSION = "10.4.1"
