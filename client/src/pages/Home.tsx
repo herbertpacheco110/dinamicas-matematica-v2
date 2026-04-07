@@ -175,7 +175,7 @@ function UpsellModal({
           <div className="text-center mb-5">
             <div className="flex items-baseline justify-center gap-3 mb-1">
               <span className="text-gray-500 line-through text-lg">R$ 69,00</span>
-              <span className="text-4xl font-bold text-[#2F6BFF]">R$ 17,00</span>
+              <span className="text-4xl font-bold text-[#2F6BFF]">R$ 27,00</span>
             </div>
             <p className="text-gray-700 font-semibold text-sm">
               Pacote Completo com Desconto Exclusivo!
@@ -209,19 +209,19 @@ function UpsellModal({
             <button
               onClick={() =>
                 onCheckout(
-                  "https://pay.lowify.com.br/checkout?product_id=ALldAo"
+                  "https://pay.lowify.com.br/checkout?product_id=nqaj8i"
                 )
               }
               className="w-full bg-gradient-to-r from-[#2F6BFF] to-blue-600 text-white py-3.5 rounded-full font-bold text-base hover:shadow-xl transition-all transform hover:scale-105 shadow-lg animate-glow flex items-center justify-center gap-2"
             >
               <Gift size={20} />
-              Quero aproveitar Oferta de R$ 17,00
+              Quero aproveitar Oferta de R$ 27,00
             </button>
             <div className="text-center">
               <button
                 onClick={() =>
                   onCheckout(
-                    "https://pay.lowify.com.br/checkout?product_id=8PM3n3"
+                    "https://pay.lowify.com.br/checkout?product_id=mfZabF"
                   )
                 }
                 className="text-sm text-gray-600 hover:text-[#2F6BFF] underline transition-all"
@@ -584,7 +584,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow animate-fade-in-up border-2 border-[#2F6BFF]">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Pacote Básico</h3>
               <div className="mb-6">
-                <p className="text-5xl font-bold text-gray-900">R$ 10,00</p>
+                <p className="text-5xl font-bold text-gray-900">R$ 19,90</p>
               </div>
               <div className="mb-8 space-y-3">
                 <div className="flex items-center gap-2">
@@ -618,7 +618,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2 mt-4">Pacote Completo</h3>
               <div className="mb-6">
-                <p className="text-5xl font-bold text-[#2F6BFF]">R$ 27,00</p>
+                <p className="text-5xl font-bold text-[#2F6BFF]">R$ 37,00</p>
               </div>
               <div className="mb-8 space-y-3">
                 <div className="flex items-center gap-2">
@@ -658,7 +658,7 @@ export default function Home() {
               <button
                 onClick={() =>
                   goToCheckout(
-                    "https://pay.lowify.com.br/checkout?product_id=nYpuwo"
+                    "https://pay.lowify.com.br/checkout?product_id=0WAud2"
                   )
                 }
                 className="w-full bg-[#2F6BFF] text-white py-5 rounded-full font-bold text-lg hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg animate-glow"
