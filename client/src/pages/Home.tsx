@@ -226,7 +226,7 @@ function UpsellModal({
                 }
                 className="text-sm text-gray-600 hover:text-[#2F6BFF] underline transition-all"
               >
-                Não, quero continuar com a de R$10
+                Não, quero continuar com a de R$19,90
               </button>
             </div>
           </div>
