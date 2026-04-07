@@ -215,7 +215,7 @@ function UpsellModal({
               className="w-full bg-gradient-to-r from-[#2F6BFF] to-blue-600 text-white py-3.5 rounded-full font-bold text-base hover:shadow-xl transition-all transform hover:scale-105 shadow-lg animate-glow flex items-center justify-center gap-2"
             >
               <Gift size={20} />
-              Aproveitar Oferta de R$ 17,00
+              Quero aproveitar Oferta de R$ 17,00
             </button>
             <div className="text-center">
               <button
