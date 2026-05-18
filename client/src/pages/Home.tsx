@@ -209,7 +209,7 @@ function UpsellModal({
             <button
               onClick={() =>
                 onCheckout(
-                  "https://pay.lowify.com.br/checkout?product_id=nqaj8i"
+                  "https://pay.wiapy.com/6WswAlp83"
                 )
               }
               className="w-full bg-gradient-to-r from-[#2F6BFF] to-blue-600 text-white py-3.5 rounded-full font-bold text-base hover:shadow-xl transition-all transform hover:scale-105 shadow-lg animate-glow flex items-center justify-center gap-2"
@@ -221,7 +221,7 @@ function UpsellModal({
               <button
                 onClick={() =>
                   onCheckout(
-                    "https://pay.lowify.com.br/checkout?product_id=mfZabF"
+                    "https://pay.wiapy.com/vWyfzJArFV"
                   )
                 }
                 className="text-sm text-gray-600 hover:text-[#2F6BFF] underline transition-all"
@@ -658,7 +658,7 @@ export default function Home() {
               <button
                 onClick={() =>
                   goToCheckout(
-                    "https://pay.lowify.com.br/checkout?product_id=0WAud2"
+                    "https://pay.wiapy.com/g3tmsVRpZC"
                   )
                 }
                 className="w-full bg-[#2F6BFF] text-white py-5 rounded-full font-bold text-lg hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg animate-glow"
